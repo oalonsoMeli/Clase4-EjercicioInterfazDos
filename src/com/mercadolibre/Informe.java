@@ -48,8 +48,8 @@ public class Informe implements Imprimible{
 
     @Override
     public String imprimir() {
-        String imprimible = "Texto " + this.texto + ", Cantidad de páginas: " + this.cantidadPaginas +
-                ", Autor: " + this.autor + ", Revisor:" + this.revisor;
+        String imprimible = "Texto: " + this.texto + ", Cantidad de páginas: " + this.cantidadPaginas +
+                ", Autor: " + this.autor + ", Revisor: " + this.revisor;
         return imprimible;
     }
 }

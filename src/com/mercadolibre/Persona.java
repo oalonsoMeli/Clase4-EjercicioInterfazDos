@@ -8,15 +8,13 @@ public class Persona {
     private String educacion;
     private String localidad;
     private long telefono;
-    private List<String> habilidades;
 
-    public Persona(String nombre, int edad, String educacion, String localidad, long telefono, List<String> habilidades) {
+    public Persona(String nombre, int edad, String educacion, String localidad, long telefono) {
         this.nombre = nombre;
         this.edad = edad;
         this.educacion = educacion;
         this.localidad = localidad;
         this.telefono = telefono;
-        this.habilidades = habilidades;
     }
 
     public String getNombre() {
@@ -59,15 +57,4 @@ public class Persona {
         this.telefono = telefono;
     }
 
-    public List<String> getHabilidades() {
-        return habilidades;
-    }
-
-    public void setHabilidades(List<String> habilidades) {
-        this.habilidades = habilidades;
-    }
-
-    public void agregarHabilidad(String habilidad){
-        this.habilidades.add(habilidad);
-    }
 }
