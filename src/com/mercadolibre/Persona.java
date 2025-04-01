@@ -66,4 +66,8 @@ public class Persona {
     public void setHabilidades(List<String> habilidades) {
         this.habilidades = habilidades;
     }
+
+    public void agregarHabilidad(String habilidad){
+        this.habilidades.add(habilidad);
+    }
 }
